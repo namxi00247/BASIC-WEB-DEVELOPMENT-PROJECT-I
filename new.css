@@ -1,0 +1,119 @@
+
+
+.nav{
+    width: 100vw;
+    height: 60px;
+    background-color: #a1f7a1;
+    margin-top: 40px;
+    margin-left: -5px;
+    position: relative;
+}
+
+.nav img{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-top: -50px;
+    margin-left: 1000px;
+}
+
+.header{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.main-content img{
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.dish-content{
+    background-color: #a4e9f4;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 80px;
+    width: 550px;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.dish-content h1{
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.dish-content h3{
+    text-align: center;
+}
+
+.dish-ingredient{
+    position: relative;
+    margin-left: 380px;
+    margin-top: -200px;
+    background-color: #a1f7a1;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 230px;
+    text-align: center;
+}
+
+.dish-ingredient li{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.footage{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footage hr{
+    width: 300px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 500px;
+}
+
+.button{
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg,  #a1f7a1 40%, #c7f954);
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    border: none;
+  }
+  
+  
+  .button:hover{
+    color: #FFFFFF;
+    background-color:#1d97a9;
+    transition: all ease 0.3s;
+  }

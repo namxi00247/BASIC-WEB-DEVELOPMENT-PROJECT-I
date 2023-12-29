@@ -1,0 +1,205 @@
+.nav{
+    width: 100vw;
+    height: 60px;
+    background-color: #a1f7a1;
+    margin-top: 40px;
+    margin-left: -5px;
+    position: relative;
+}
+
+.nav img{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-top: -50px;
+    margin-left: 1000px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.recipe-choice{
+    width: 150px;
+    padding-left: 50px;
+    margin-right: -70px;
+    padding-top: 70px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.recipe-choice h5{
+    font-size: 15px;
+    border: solid 2px #a4e9f4;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.recipe-choice h5:hover{
+    background-color: #a4e9f4;
+    font-weight: bolder;
+}
+
+.main-content img{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.container-1{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 30px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.container-2{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 30px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.container-3{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 30px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.container-4{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 30px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.container-5{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 30px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.container-6{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 30px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+
+
+
+.recipe-container{
+    position: relative;
+
+}
+
+.image-column{
+    width: 350px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.button{
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg,  #a1f7a1 40%, #c7f954);
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  
+  
+  .button:hover{
+    color: #FFFFFF;
+    background-color:#1d97a9;
+    transition: all ease 0.3s;
+  }
+
+.content-column{
+    padding-right: 40px;
+    padding-top: 50px;
+    width: 530px;
+}
+
+.ingredients{
+    width: 200px;
+    font-size: 15px;
+    position: relative;
+    background-color: #a1f7a1;
+    padding: 10px;
+    border-radius: 10px;
+    height: 320px;
+    margin-left: -30px;
+}
+
+.ingredients h5{
+    text-align: center;
+}
+
+.instruction{
+    width: 450px;
+    height: 490px;
+    font-size: 15px;
+    position: absolute;
+    background-color: #a4e9f4;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 20px;
+    margin-top: -300px;
+    margin-left: 170px;
+}
+
+.instruction li{
+    margin-bottom: 10px;
+}
+

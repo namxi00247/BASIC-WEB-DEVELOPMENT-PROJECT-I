@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Healthy</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel = "icon" href = "images/1.png" type = "image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navlist">
+            <div class="logo-container">
+                <li id = "logo">
+                    <img src="images\1.png" alt="">
+                </li>
+            </div>
+            <div class="search-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                    <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+                    <path d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"/>
+                  </svg>
+                <input type="text" placeholder="Search bar">
+            </div>
+            <ul class = "nav-item">
+                <li>
+                    <a href="#" class = "list-nav">HOME</a>
+                </li>
+                <li>
+                    <a href="#new-container" class = "list-nav">RECIPE</a>
+                </li>
+                <li>
+                    <a href="#shop-container" class="list-nav">SHOP</a>
+                </li>
+                <li>
+                    <a href="#about-container" class = "list-nav">ABOUT US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="home-container" id = "home-container">
+        <div class="image-slider">
+            <div class="slider">
+                <div class="slides">
+                  <!--radio buttons start-->
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                  <input type="radio" name="radio-btn" id="radio4">
+                  <!--radio buttons end-->
+                  <!--slide images start-->
+                  <div class="slide first">
+                    <img src="images\chickpea-salad-toast-with-harissa-yogurt.webp" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="images\green-tea-noodles-with-sticky-sweet-chilli-salmon-140868-2.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="images\GRT-226100-Easy-Healthy-Meals-english-muffin-pizza-well-plated-by-erin-1296x728-header.webp" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="images\silverbeet-fatteh-with-sumac-yoghurt-and-chickpeas-139202-1.jpg" alt="">
+                  </div>
+                  <!--slide images end-->
+                  <!--automatic navigation start-->
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                  </div>
+                  <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+              </div>
+              <!--image slider end-->
+                  
+        </div>
+
+        <div class="popular">
+            <h2>POPULAR DISH</h2>
+            <hr>
+            <ul>
+                <div id = "dishlist-1">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div> Creamy Chicken Noodle Soup with Rotisserie Chicken</li>
+                    </div>
+                
+                <div id="dishlist-2">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div> Spaghetti & Spinach with Sun-Dried Tomato Cream Sauce</li>
+                    </div>
+               
+                <div id="dishlist-3">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div> Chicken Cutlets with Sun-Dried Tomato Cream Sauce</li>
+                </div>
+                
+                <div id="dishlist-4">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div> American Goulash</li>
+                </div>
+                
+            </ul>
+
+            <h2>MUST TRY</h2>
+            <hr>
+            <ul>
+                <div id="dish-list5">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span><div class="space"></div>Apple Pie Energy Balls</li>
+                </div>
+
+                <div id="dish-list6">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div>Minestra Maritata (Italian Wedding Soup) </li>
+                </div>
+                
+                <div id="dish-list7">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div>Chicken & Spinach Skillet Pasta with Lemon & Parmesan</li>
+                </div>
+
+                <div id="dish-list8">
+                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-arrow" viewBox="0 0 16 16">
+                        <path d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"/>
+                      </svg></span> <div class="space"></div>Weight-Loss Cabbage Soup</li>
+                </div>
+                
+            </ul> 
+        </div>
+
+        <div class="popular-overlay">
+            <div id="dish-1">
+                <div class="dish-card" id = "dish-card1">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F09%2F13%2F7104329.jpg" alt="">
+                    <div class="dish-details">
+                        <p>This creamy rotisserie chicken soup has a delicious chicken pot pie feel to it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-2">
+                <div class="dish-card" id = "dish-card2">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2021%2F09%2F23%2Fspaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.jpg" alt="">
+                    <div class="dish-details">
+                        <p>The residual heat of the pasta wilts the spinach in record time for a fast weeknight dinner.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-3">
+                <div class="dish-card" id = "dish-card3">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F10%2F04%2F7115885.jpg" alt="">
+                    <div class="dish-details">
+                        <p>Though a chicken cutlet may be a chicken breast cut in half, this recipe shows how to make chicken cutlets with double the deliciousness.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-4">
+                <div class="dish-card" id = "dish-card4">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2016%2F12%2F27122556%2F52380891.jpg" alt="">
+                    <div class="dish-details">
+                        <p>American goulash, also known as old-fashioned goulash, is the perfect economical family meal.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-5">
+                <div class="dish-card" id = "dish-card5">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2021%2F08%2F30%2Fapple-pie-energy-balls.jpg" alt="">
+                    <div class="dish-details">
+                        <p>These no-bake Apple Pie Energy Balls come together easily and will give your body the energy it needs to power through the afternoon.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-6">
+                <div class="dish-card" id = "dish-card6">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2020%2F10%2F09%2Feasy-italian-wedding-soup-960x960-1.jpg" alt="">
+                    <div class="dish-details">
+                        <p>In this easy recipe, they're full-size, full-flavored and plenty filling.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-7">
+                <div class="dish-card" id = "dish-card7">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F08%2F26232349%2F5678426.jpg" alt="">
+                    <div class="dish-details">
+                        <p>This one-pan chicken pasta combines lean chicken breast and sautéed spinach for a one-bowl meal that's garlicky, lemony and best served with a little Parm on top.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dish-8">
+                <div class="dish-card" id = "dish-card8">
+                    <img class = "dish-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2020%2F09%2F30%2FCabbage-Diet-Soup-2000.jpg" alt="">
+                    <div class="dish-details">
+                        <p>Loaded with cabbage, carrots, bell pepper, tomato and plenty of seasoning, this healthy cabbage soup recipe packs in lots of flavor and is ultra-satisfying.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-container" id = "new-container">
+        <h2><span><hr></span> NEW RECIPES <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
+          </svg></span> <span><hr></span></h2>
+
+        <div class="back-design">
+        </div>
+
+        <div class="recipe-card">
+            <div class="column">
+                <img src="https://www.acouplecooks.com/wp-content/uploads/2020/09/Cauliflower-Stir-Fry-011.jpg" alt="">
+                <h3>Cauliflower Stir Fry</h3>
+                <p>This easy cauliflower stir fry is an ideal healthy and easy dinner idea! It’s full of nutrients and covered in a punchy sauce.
+                </p>
+                <a href="Cauliflower-Stir-Fry.html"><button id = "recipe-new1" class = "button-75">READ MORE</button></a>
+            </div>
+            <div class="column">
+                <img src="https://www.acouplecooks.com/wp-content/uploads/2021/02/Fajita-Veggies-004.jpg" alt="">
+                <h3>Epic Vegetarian Fajitas</h3>
+                <p>Everyone loves this easy vegetarian fajitas recipe! This Tex Mex dinner is full of big flavor and beautiful colorful veggies.
+                </p>
+                <a href="Vegetarian-Fajitas.html"><button id = "new2" class = "button-75">READ MORE</button></a>
+            </div>
+            <div class="column">
+                <img src="https://www.acouplecooks.com/wp-content/uploads/2022/01/Mediterranean-Tuna-Salad-008.jpg" alt="">
+                <h3>Mediterranean Tuna Salad</h3>
+                <p>This Mediterranean tuna salad takes just minutes to put together: it’s a fast and flavorful lunch or healthy dinner!
+                </p>
+                <a href="mediterranean-tuna-salad.html"><button id = "recipe-new3" class = "button-75">READ MORE</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pick-container" id = "pick-container">
+        <div class="pick-background">
+            <div class="pick-content">
+                <h4>PICK OF THE MONTH</h4>
+                <h2>Falafel Salad</h2>
+                <p>Falafel tops the chart of some of the world’s best vegan recipes, in our opinion. These Middle Eastern chickpea balls are so meaty and satisfying, we could eat them daily. Here’s a way to make part of an everyday plant-based meal: this Falafel Salad! Make a batch of this easy baked falafel, then layer them with crunchy veggies and top with a creamy, zingy tahini dressing. Or, use purchased frozen falafel or even repurpose take-out leftovers! This one is a massive hit with our family: and works for weeknights or dinner parties.</p>
+                <a href="Falafel-salad.html"><button class = "button-75" id = "pick-recipe-show">SHOW RECIPE</button></a>
+            </div>
+            <div class="pick-image">
+                <img style = "border-top-right-radius: 10px; border-bottom-right-radius: 10px; width: 450px;" src="https://www.acouplecooks.com/wp-content/uploads/2018/08/Falafel-Salad-009.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="browse-container" id = "browse-container">
+
+        <div class="logo-divider">
+            <h2><span><hr>BROWSE FOR MORE RECIPES  <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+                <path d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"/>
+              </svg></span><hr></span></h2>
+        </div>
+        <div class="recipe-category">
+            <div class="browse-column">
+                <a href="dinner.html"><button class = "cat-btn">Dinner</button></a>
+                <a href="appetizers.html"><button class = "cat-btn">Appetizers</button></a>
+            </div>
+            <div class="browse-column">
+                <a href="drinks.html"><button class = "cat-btn">Drinks</button></a>
+                <a href="breakfast.html"><button class = "cat-btn">Breakfast</button></a>
+            </div>
+            <div class="browse-column">
+                <a href="side-dishes.html"><button class = "cat-btn">Side Dishes</button></a>
+                <a href="deserts.html"><button class = "cat-btn">Content</button></a>
+            </div>
+            <div class="browse-column">
+                <a href="salads.html"><button class = "cat-btn">Salads</button></a>
+                <a href="deserts.html"><button class = "cat-btn">Content</button></a>
+            </div>
+            <div class="browse-column">
+                <a href="deserts.html"><button class = "cat-btn">Desserts</button></a>
+                <a href="deserts.html"><button class = "cat-btn">Content</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-container" id = "shop-container">
+        <div class="shop-head">
+            <hr>
+            <h2 style = "display: flex;">WELCOME TO OUR SHOP </h2>
+            <hr>
+        </div>
+        <div class="shop-content">
+
+            <div class="shop-column">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2015/07/Hi-Energy-Mix-Nutstop.jpg" alt="">
+                                <div class="overlay">
+                                    <a id ="but1" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Hi-Energy Mix</a>
+                                    <span>Raisins, Sunflower Kernels Raw, Pumpkin Kernels Raw, Peanuts...</span>
+                                </div>
+                                <a href="#" class = "price">$2.99</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2015/07/Dried-Cranberries-Nutstop.jpg" alt="">
+                                <div class="overlay">
+                                    <a id ="but2" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Dried Cranberries</a>
+                                    <span>Cranberries, Sugar, Citric Acid, Sunflower Oil.</span>
+                                </div>
+                                <a href="#" class = "price">$4.29</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2016/08/Sesame-Sensation-Trail-Mix-Nutstop.jpg" alt="">
+                                <div class="overlay">
+                                    <a id ="but3" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Sesame Sensation </a>
+                                    <span>Sesame Sticks Roasted Salted, Peanuts Roasted Salted...</span>
+                                </div>
+                                <a href="#" class = "price">$4.99</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2015/07/Hidden-Dragon-Mix-Nutstop.jpg" alt="">
+                                <div class="overlay">
+                                    <a id ="but4" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Hidden Dragon Mix</a>
+                                    <span>Rice, Wasabi Peas, Soybeans, Honey Roasted Sesame Seeds, Peanuts.</span>
+                                </div>
+                                <a href="#" class = "price">$2.99</a>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+            <div class="shop-column">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop1.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but5" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop2.webp" alt="">
+                                <div class="overlay">
+                                    <a id ="but6" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop3.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but7" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop4.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but8" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+            <div class="shop-column">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop1.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but9" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop2.webp" alt="">
+                                <div class="overlay">
+                                    <a id ="but10" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop3.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but11" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop4.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but12" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+            <div class="shop-column">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop1.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but13" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop2.webp" alt="">
+                                <div class="overlay">
+                                    <a id ="but14" href="#shop-container" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop3.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but15" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="images\shop4.jfif" alt="">
+                                <div class="overlay">
+                                    <a id ="but16" href="#item-c" class="buy-btn">BUY NOW</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Instant Noodles</a>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet!</span>
+                                </div>
+                                <a href="#" class = "price">$43</a>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+    <div class="shop-container-overlay">
+        
+            <div class="buy-shopcard" id ="buycard1">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2015/07/Hi-Energy-Mix-Nutstop.jpg" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Hi-Energy Mix</h3>
+                        <p>Holding a place of honor as one of our best selling snacks, this hi-energy mix is revered for its unique combination of flavors. Nuts and seeds bring diverse textures and distinguishable flavors to the mix. Chewy raisins add a bit of natural sweetness to the mixture. Mingled in as an added bonus, you’ll find tasty little carob chips.</p>
+                        <h6>$2.99</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number1" ></input>
+                      <button id = "add-plus1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button1">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard2">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2015/07/Dried-Cranberries-Nutstop.jpg" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Dried Cranberries</h3>
+                        <p>When your breakfast foods such as oatmeal and cereal need a wake-up call, dried cranberries can relieve you of breakfast boredom. Their chewy texture and combination of sweetness and tartness make them a flavorful snack food or scrumptious addition to sauces and salads. Toss some in a lunch bag or back pack to energize you in a sluggish moment.</p>
+                        <h6>$4.29</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number2" ></input>
+                      <button id = "add-plus2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button2">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard3">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2016/08/Sesame-Sensation-Trail-Mix-Nutstop.jpg" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Sesame Sensation Trail Mix</h3>
+                        <p>This sesame sensation trail mix features a mix of various shaped, neutral colored items. Don’t let the visual appearance lead you to believe that this mix lacks excitement. It is amazingly flavorful. The unique variety of textures the nuts bring to the mix and the crunchiness of the sesame sticks make this an astoundingly tasty snack.</p>
+                        <h6>$4.99</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number3" ></input>
+                      <button id = "add-plus3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button3">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard4">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/static/optimized/rev-5754897/wp-content/uploads/2015/07/Hidden-Dragon-Mix-Nutstop.jpg" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Hidden Dragon Mix</h3>
+                        <p>When your snack selection has become mundane, give our hidden dragon mix a try. It features diverse flavors that range from the very lively flavored wasabi peas to the soothing honey roasted sesame seeds. Crunchy, nutty peanuts, an all-time favorite snack item, are also included in the mix along with the unique textures and flavors of soybean and rice.</p>
+                        <h6>$2.99</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number4" ></input>
+                      <button id = "add-plus4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button4">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard5">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number5" ></input>
+                      <button id = "add-plus5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button5">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard6">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number6" ></input>
+                      <button id = "add-plus6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button6">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard7">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus7"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number7" ></input>
+                      <button id = "add-plus7"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button7">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard8">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus8"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number8" ></input>
+                      <button id = "add-plus8"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button8">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard9">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus9"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number9" ></input>
+                      <button id = "add-plus9"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button9">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard10">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus10"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number10" ></input>
+                      <button id = "add-plus10"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button10">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard11">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus11"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number11" ></input>
+                      <button id = "add-plus11"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button11">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard12">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus12"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number12" ></input>
+                      <button id = "add-plus12"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button12">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard13">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus13"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number13" ></input>
+                      <button id = "add-plus13"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button13">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard14">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus14"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number14" ></input>
+                      <button id = "add-plus14"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button14">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard15">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus15"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number15" ></input>
+                      <button id = "add-plus15"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button15">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-shopcard" id ="buycard16">
+                <div class="buy-content">
+                    <div class="buy-image">
+                        <img src="images\shop1.jfif" alt="">
+                    </div>
+                    <div class="buy-des">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia obcaecati nemo consectetur inventore, alias molestias aut deleniti nesciunt voluptas?</p>
+                        <h6>$35</h6>
+                    </div>
+                </div>
+                <div class="add-to-cart-container">
+                    <div class="add-slider">
+                       <button id = "add-minus16"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                      </svg></button> 
+                      <input placeholder="0" type=number min=0 max=110 id = "add-slider-number16" ></input>
+                      <button id = "add-plus16"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                      </svg></button>
+                    </div>
+                    <button class = "add-to-cart" id = "button16">ADD TO CART</button>
+                </div>
+            </div>
+            
+    </div>
+
+    <div class="buy-now-overlay">
+    </div>
+        
+
+
+
+    <div class="subscription-container">
+
+
+        <div class="subscription-content">
+            <div class="subscribe">
+                <h1>SUBSCRIBE FOR MORE EXCLUSIVE CONTENT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis beatae alias maxime itaque, veritatis quo, quasi nisi corrupti unde saepe minima modi? Animi labore, dolorum at quibusdam molestias nobis voluptate iste dicta nesciunt voluptas accusamus obcaecati nam expedita?</p>
+            </div>
+            <div class="subscribe-form">
+                <p id = "not-valid" style = "margin-top: -10px;margin-bottom: 5px;margin-left: -20px; color: red; font-weight: bolder"></p>
+                <input id = "subscription-email" type="text" placeholder="Email Address">
+                <input id = "subscription-name" type="text" placeholder="Full Name">
+                <input id = "subscribe-button" type="button" value = "SUBSCRIBE" onclick="validation()">
+            </div>
+
+        </div>
+        <div class="subscription-image">
+            <img src="images\sub-slide3.png" alt="">
+        </div>
+    </div>
+
+    <div class="about-container" id = "about-container">
+
+        <div class="about-image">
+            <img src="images\about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h1>ABOUT OUR PAGE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, possimus recusandae, qui dolor mollitia eos quis, nemo est quas tenetur corrupti deleniti sit? Quae dolores, ipsum eveniet nihil eligendi sed omnis labore facere, officiis rem sunt qui facilis neque repellat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam id sint sequi odio? Quae, deserunt! Ab error ipsa blanditiis natus perferendis dignissimos sint maxime nobis accusamus omnis, modi reprehenderit adipisci, quas explicabo veniam, iusto quo.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+            <div class="social-media">
+                <h6>MEET US AT</h6>
+                <div class="social-media-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="logo-footer">
+                <img src="images\1.png" alt="">
+            </div>
+            <div class="slogan">
+                <h6>A healthy body has a healthy mind and soul.</h6>
+            </div>
+
+
+    </div>
+
+    <hr id = "last">
+    <script src="main.js"></script>
+</body>
+</html>
